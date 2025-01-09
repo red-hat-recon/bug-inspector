@@ -41,11 +41,3 @@ Bug Inspector is a Python-based tool that leverages GPT to analyze source code f
     ```bash
     python src/bug_inspector.py
     ```
-
-## Usage
-* Provide the source code path when prompted.
-* Results will be saved in the outputs directory.
-
-## Output
-* Individual JSON files for each prompt and chunk.
-* Combined JSON file (combined_results.json) for all analyses.
