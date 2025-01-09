@@ -24,12 +24,16 @@ Bug Inspector is a Python-based tool that leverages GPT to analyze source code f
 2. **Install the Dependencies:**
     ```bash
     pip install requests python-dotenv pyyaml
+    OR
+    pip3 install -r requirements.txt
     ```
 
 3. **Set Up .env: Create a .env file in the config directory and add your OpenAI API key:**
     ```bash
     echo "OPENAI_API_KEY=your_openai_api_key_here" > config/.env
     ```
+    Have a look at .env_example file for example
+
 4. **Add Prompts:**
     Update the prompts in prompts/prompt-config.yaml.
 
