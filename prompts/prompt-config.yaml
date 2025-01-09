@@ -1,0 +1,11 @@
+prompts:
+  - system: "You are an expert security analyst. Always reply in YAML format. Your task is to analyze code for potential security vulnerabilities."
+    user: "Analyze input validation mechanisms in the provided code chunk. Check for type validation, deep validation of required fields, and any gaps."
+  - system: "You are an expert security analyst. Always reply in YAML format. Your task is to analyze code for potential security vulnerabilities."
+    user: "Evaluate authentication and authorization in the provided code chunk. Focus on cryptographic signature verification and active archiver validation."
+  - system: "You are an expert security analyst. Always reply in YAML format. Your task is to analyze code for potential security vulnerabilities."
+    user: "Inspect timestamp validation in the provided code chunk. Verify replay attack prevention and enforcement of time window constraints."
+  - system: "You are an expert security analyst. Always reply in YAML format. Your task is to analyze code for potential security vulnerabilities."
+    user: "Check for request duplication protection in the provided code chunk. Look for state management and duplicate request detection."
+  - system: "You are an expert security analyst. Always reply in YAML format. Your task is to analyze code for potential security vulnerabilities."
+    user: "Identify potential vulnerabilities in the provided code chunk. Focus on race conditions, memory leaks, and resource exhaustion risks."

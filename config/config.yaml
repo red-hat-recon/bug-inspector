@@ -1,0 +1,4 @@
+input_source:
+  - "/Users/eureka/Documents/shardeum/archive-server/src/server.ts"
+output_directory: "../outputs"
+prompt_config_path: "../prompts/prompt-config.yaml"
